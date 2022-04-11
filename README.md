@@ -127,13 +127,18 @@ python Visualization.py --config_file "(you config path)" --use_cuda (Whether us
 python Visualization.py --config_file configs/OCC_Duke/AET-NET/RGA/SC_AGS.yml --use_cuda True --image_path ./demo/1.jpg  --OUTPUT_DIR ./demo/results --Model_Type "AET_SC_AGS" TEST.WEIGHT '../logs/occ_duke/AET-NET/RGA/SC_AGS/AET-NET_120.pth'
 ```
 
+## Inference Costs
+```bash
+python calc_parms_and_flops.py --config_file "(you config path)" TEST.WEIGHT "(Path to your eval model)"
+```
+
 ## Trained Models and logs
 
 Note: The code will be released after the paper is accepted.
 
 ## Acknowledgement
 
-Codebase from [reid-strong-baseline](https://github.com/michuanhaohao/reid-strong-baseline) , [pytorch-image-models](https://github.com/rwightman/pytorch-image-models), [TransReID](https://github.com/damo-cv/TransReID), [vit-explain](https://github.com/jacobgil/vit-explain)
+Code base from [reid-strong-baseline](https://github.com/michuanhaohao/reid-strong-baseline) , [pytorch-image-models](https://github.com/rwightman/pytorch-image-models), [TransReID](https://github.com/damo-cv/TransReID), [vit-explain](https://github.com/jacobgil/vit-explain)
 
 
 ## Citation
