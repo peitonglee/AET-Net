@@ -115,7 +115,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port 12345 main.p
 python -m torch.distributed.launch --nproc_per_node=1 --master_port 12345 main.py --config_file configs/Market/AET-NET/RGA/SC_AGS.yml --tag 'test' MODEL.DEVICE_ID "('0')" TEST.WEIGHT '../logs/occ_duke/AET-NET/RGA/SC_AGS/AET-NET_120.pth'
 ```
 ## Visualization
-![Visualization](https://note.youdao.com/yws/api/personal/file/9CDFAFDA2AAC4C2FAB8F29AF1315451D?method=download&shareKey=14f77f99e390f74596f8760e6334f467)
+![Visualization](https://github.com/Peitong-Li/AET-Net/blob/main/Visualization.jpg)
 ```bash
 python Visualization.py --config_file "(you config path)" --use_cuda (Whether use cuda) --image_path "(The image path to be visualized)" --OUTPUT_DIR "(Path to Heat map output)" --Model_Type "(the tag of model)" --show (If show the image result) TEST.WEIGHT "(Path to your eval model)"
 ```
