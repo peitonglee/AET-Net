@@ -7,19 +7,19 @@ We propose AET-Net, a CNN Attention Enhanced Transformer Network for ReID to sol
 
 ## Pipeline
 
-![framework](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/readme_framework.png)
-![MAS](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/readme_MAS.png)
+![framework](https://raw.githubusercontent.com/Peitong-Li/AET-Net/main/imgs/readme_framework.png)
+![MAS](https://raw.githubusercontent.com/Peitong-Li/AET-Net/main/imgs/readme_MAS.png)
 
 ## Comparison results between AET-Net and the state-of-the-art methods
-![occ_duke](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/OCC_Duke.png)
-![market_duke](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/M_D.png)
+![occ_duke](https://raw.githubusercontent.com/Peitong-Li/AET-Net/main/imgs/OCC_Duke.png)
+![market_duke](https://raw.githubusercontent.com/Peitong-Li/AET-Net/main/imgs/M_D.png)
 
 
 ## Abaltion Study of AET-NET
 
-![Ablation](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/Ablation.png)
-![Portable_ablation](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/portable_ablation.png)
-![Inferential Costs](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/portable_ablation.png)
+![Ablation](https://raw.githubusercontent.com/Peitong-Li/AET-Net/main/imgs/Ablation.png)
+![Portable_ablation](https://raw.githubusercontent.com/Peitong-Li/AET-Net/main/imgs/portable_ablation.png)
+![Inferential Costs](https://raw.githubusercontent.com/Peitong-Li/AET-Net/main/imgs/Inferential_Costs.png)
 
 
 
@@ -116,7 +116,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port 12345 main.p
 python -m torch.distributed.launch --nproc_per_node=1 --master_port 12345 main.py --config_file configs/Market/AET-NET/RGA/SC_AGS.yml --tag 'test' MODEL.DEVICE_ID "('0')" TEST.WEIGHT '../logs/occ_duke/AET-NET/RGA/SC_AGS/AET-NET_120.pth'
 ```
 ## Visualization
-![Visualization](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/Visualization.jpg)
+![Visualization](https://raw.githubusercontent.com/Peitong-Li/AET-Net/main/imgs/Visualization.jpg)
 ```bash
 python Visualization.py --config_file "(you config path)" --use_cuda (Whether use cuda) --image_path "(The image path to be visualized)" --OUTPUT_DIR "(Path to Heat map output)" --Model_Type "(the tag of model)" --show (If show the image result) TEST.WEIGHT "(Path to your eval model)"
 ```
