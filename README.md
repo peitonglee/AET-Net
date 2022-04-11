@@ -7,8 +7,8 @@ We propose AET-Net, a CNN Attention Enhanced Transformer Network for ReID to sol
 
 ## Pipeline
 
-![framework](https://note.youdao.com/yws/api/personal/file/267B42EE848642289332C0C86D544A6D?method=download&shareKey=55f7a486f59804771573414f3912393a)
-![MAS](https://note.youdao.com/yws/api/personal/file/FEBD3597D9BF459AAADDC16188D956A0?method=download&shareKey=c29e44fa365ba9faa9f712669a1a3d11)
+![framework](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/readme_framework.png)
+![MAS](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/readme_MAS.png)
 
 ## Comparison results between AET-Net and the state-of-the-art methods
 ![occ_duke]()
@@ -17,8 +17,9 @@ We propose AET-Net, a CNN Attention Enhanced Transformer Network for ReID to sol
 
 ## Abaltion Study of AET-NET
 
-![Ablation]()
-![Portable_ablation]()
+![Ablation](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/Ablation.png)
+![Portable_ablation](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/portable_ablation.png)
+![Inferential Costs](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/portable_ablation.png)
 
 
 
