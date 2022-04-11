@@ -129,7 +129,7 @@ python Visualization.py --config_file configs/OCC_Duke/AET-NET/RGA/SC_AGS.yml --
 
 ## Trained Models and logs
 
-Note: trained models and logs will be released after the paper is accepted.
+Note: The code will be released after the paper is accepted.
 
 ## Acknowledgement
 
