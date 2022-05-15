@@ -8,18 +8,18 @@ We propose AET-Net, a CNN Attention Enhanced Transformer Network for ReID to sol
 ## Pipeline
 
 ![framework](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/readme_framework.png?raw=true)
-![MAS](./imgs/readme_MAS.png)
+![MAS](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/readme_MAS.png?raw=true)
 
 ## Comparison results between AET-Net and the state-of-the-art methods
-![occ_duke](./imgs/OCC_Duke.png)
-![market_duke](./imgs/M_D.png)
+![occ_duke](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/OCC_Duke.png?raw=true)
+![market_duke](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/M_D.png?raw=true)
 
 
 ## Abaltion Study of AET-NET
 
-![Ablation](./imgs/Ablation.png)
-![Portable_ablation](./imgs/portable_ablation.png)
-![Inferential Costs](./imgs/Inferential_Costs.png)
+![Ablation](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/Ablation.png?raw=true)
+![Portable_ablation](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/portable_ablation.png?raw=true)
+![Inferential Costs](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/Inferential_Costs.png?raw=true)
 
 
 
@@ -116,7 +116,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port 12345 main.p
 python -m torch.distributed.launch --nproc_per_node=1 --master_port 12345 main.py --config_file configs/Market/AET-NET/RGA/SC_AGS.yml --tag 'test' MODEL.DEVICE_ID "('0')" TEST.WEIGHT '../logs/occ_duke/AET-NET/RGA/SC_AGS/AET-NET_120.pth'
 ```
 ## Visualization
-![Visualization](./imgs/Visualization.jpg)
+![Visualization](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/Visualization.jpg?raw=true)
 ```bash
 python Visualization.py --config_file "(you config path)" --use_cuda (Whether use cuda) --image_path "(The image path to be visualized)" --OUTPUT_DIR "(Path to Heat map output)" --Model_Type "(the tag of model)" --show (If show the image result) TEST.WEIGHT "(Path to your eval model)"
 ```
