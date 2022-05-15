@@ -7,7 +7,7 @@ We propose AET-Net, a CNN Attention Enhanced Transformer Network for ReID to sol
 
 ## Pipeline
 
-![framework](https://github.com/Peitong-Li/AET-Net/tree/main/imgs/readme_framework.png)
+![framework](https://github.com/Peitong-Li/AET-Net/blob/main/imgs/readme_framework.png?raw=true)
 ![MAS](./imgs/readme_MAS.png)
 
 ## Comparison results between AET-Net and the state-of-the-art methods
